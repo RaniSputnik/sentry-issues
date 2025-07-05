@@ -4,7 +4,7 @@ import { handleErrorWithSentry, sentryHandle, initCloudflareSentryHandle } from 
 // If you have custom handlers, make sure to place them after `sentryHandle()` in the `sequence` function.
 export const handle = sequence(
 	initCloudflareSentryHandle({
-		dsn: 'https://b473eacf54d77917c8440f75683345ce@o4505793464107008.ingest.us.sentry.io/4509605102682112',
+		dsn: 'https://989d34ebfba07be45dd9251bb80e5b2a@o4505793464107008.ingest.us.sentry.io/4509610974707712',
 		tracesSampleRate: 1.0,
 	}),
 	sentryHandle()
