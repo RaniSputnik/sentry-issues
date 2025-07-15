@@ -17,7 +17,7 @@ export const handle = sequence(
 		tracesSampleRate: 1.0,
 	}),
 	sentryHandle(),
-	redirectToSentryPage,
+	// redirectToSentryPage,
 );
 
 // If you have a custom error handler, pass it to `handleErrorWithSentry`
